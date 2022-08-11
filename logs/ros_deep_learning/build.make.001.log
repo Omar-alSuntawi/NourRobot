@@ -1,0 +1,16 @@
+[ 17%] Built target video_source
+[ 34%] Built target segnet
+[ 52%] Built target detectnet
+[ 69%] Built target imagenet
+[ 86%] Built target video_output
+[ 91%] [32mBuilding CXX object CMakeFiles/ros_deep_learning_nodelets.dir/src/nodelet_imagenet.cpp.o[0m
+[01m[K/home/jetson/nourrobot_ws/src/ros_deep_learning/src/nodelet_imagenet.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Knodelet/nodelet.h: No such file or directory
+ #include [01;31m[K<nodelet/nodelet.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/ros_deep_learning_nodelets.dir/build.make:62: recipe for target 'CMakeFiles/ros_deep_learning_nodelets.dir/src/nodelet_imagenet.cpp.o' failed
+make[2]: *** [CMakeFiles/ros_deep_learning_nodelets.dir/src/nodelet_imagenet.cpp.o] Error 1
+CMakeFiles/Makefile2:1116: recipe for target 'CMakeFiles/ros_deep_learning_nodelets.dir/all' failed
+make[1]: *** [CMakeFiles/ros_deep_learning_nodelets.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

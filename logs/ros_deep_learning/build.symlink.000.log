@@ -1,0 +1,9 @@
+Symlinking /home/jetson/nourrobot_ws/devel/lib/libros_deep_learning_nodelets.so
+Symlinking /home/jetson/nourrobot_ws/devel/lib/pkgconfig/ros_deep_learning.pc
+Symlinking /home/jetson/nourrobot_ws/devel/lib/ros_deep_learning/video_source
+Symlinking /home/jetson/nourrobot_ws/devel/lib/ros_deep_learning/imagenet
+Symlinking /home/jetson/nourrobot_ws/devel/lib/ros_deep_learning/detectnet
+Symlinking /home/jetson/nourrobot_ws/devel/lib/ros_deep_learning/segnet
+Symlinking /home/jetson/nourrobot_ws/devel/lib/ros_deep_learning/video_output
+Symlinking /home/jetson/nourrobot_ws/devel/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+Symlinking /home/jetson/nourrobot_ws/devel/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake

@@ -1,0 +1,44 @@
+[35m[1mScanning dependencies of target detectnet[0m
+[35m[1mScanning dependencies of target segnet[0m
+[35m[1mScanning dependencies of target video_source[0m
+[  4%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/node_detectnet.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/node_segnet.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/node_video_source.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/image_converter.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/image_converter.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/image_converter.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/video_source.dir/src/ros_compat.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/segnet.dir/src/ros_compat.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/detectnet.dir/src/ros_compat.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable /home/jetson/nourrobot_ws/devel/.private/ros_deep_learning/lib/ros_deep_learning/video_source[0m
+[ 43%] Built target video_source
+[35m[1mScanning dependencies of target imagenet[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/node_imagenet.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable /home/jetson/nourrobot_ws/devel/.private/ros_deep_learning/lib/ros_deep_learning/segnet[0m
+[ 52%] Built target segnet
+[35m[1mScanning dependencies of target video_output[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/node_video_output.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable /home/jetson/nourrobot_ws/devel/.private/ros_deep_learning/lib/ros_deep_learning/detectnet[0m
+[ 60%] Built target detectnet
+[ 65%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/image_converter.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/video_output.dir/src/ros_compat.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/image_converter.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/imagenet.dir/src/ros_compat.cpp.o[0m
+[35m[1mScanning dependencies of target ros_deep_learning_nodelets[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/ros_deep_learning_nodelets.dir/src/nodelet_imagenet.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable /home/jetson/nourrobot_ws/devel/.private/ros_deep_learning/lib/ros_deep_learning/video_output[0m
+[ 86%] Built target video_output
+[ 91%] [32mBuilding CXX object CMakeFiles/ros_deep_learning_nodelets.dir/src/image_converter.cpp.o[0m
+[01m[K/home/jetson/nourrobot_ws/src/ros_deep_learning/src/nodelet_imagenet.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Knodelet/nodelet.h: No such file or directory
+ #include [01;31m[K<nodelet/nodelet.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/ros_deep_learning_nodelets.dir/build.make:62: recipe for target 'CMakeFiles/ros_deep_learning_nodelets.dir/src/nodelet_imagenet.cpp.o' failed
+make[2]: *** [CMakeFiles/ros_deep_learning_nodelets.dir/src/nodelet_imagenet.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 95%] [32m[1mLinking CXX executable /home/jetson/nourrobot_ws/devel/.private/ros_deep_learning/lib/ros_deep_learning/imagenet[0m
+[ 95%] Built target imagenet
+CMakeFiles/Makefile2:1116: recipe for target 'CMakeFiles/ros_deep_learning_nodelets.dir/all' failed
+make[1]: *** [CMakeFiles/ros_deep_learning_nodelets.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

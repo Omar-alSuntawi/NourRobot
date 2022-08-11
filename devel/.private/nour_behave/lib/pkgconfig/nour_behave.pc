@@ -1,0 +1,8 @@
+prefix=/home/jetson/nourrobot_ws/devel/.private/nour_behave
+
+Name: nour_behave
+Description: Description of nour_behave
+Version: 0.0.0
+Cflags: -I/home/jetson/nourrobot_ws/devel/.private/nour_behave/include
+Libs: -L${prefix}/lib 
+Requires: 

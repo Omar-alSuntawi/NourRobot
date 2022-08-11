@@ -1,0 +1,8 @@
+prefix=/home/jetson/nourrobot_ws/install
+
+Name: nour_pid
+Description: Description of nour_pid
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure message_runtime roscpp std_msgs nour_msgs

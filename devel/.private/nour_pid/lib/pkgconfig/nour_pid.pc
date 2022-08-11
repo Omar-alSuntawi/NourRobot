@@ -1,0 +1,8 @@
+prefix=/home/jetson/nourrobot_ws/devel/.private/nour_pid
+
+Name: nour_pid
+Description: Description of nour_pid
+Version: 0.0.1
+Cflags: -I/home/jetson/nourrobot_ws/devel/.private/nour_pid/include -I/home/jetson/nourrobot_ws/src/nour_core/nour_pid/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure message_runtime roscpp std_msgs nour_msgs

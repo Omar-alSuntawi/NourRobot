@@ -1,0 +1,6 @@
+[ 17%] Built target segnet
+[ 34%] Built target video_source
+[ 52%] Built target detectnet
+[ 69%] Built target imagenet
+[ 86%] Built target video_output
+[100%] Built target ros_deep_learning_nodelets

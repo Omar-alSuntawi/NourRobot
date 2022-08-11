@@ -1,0 +1,5 @@
+Symlinking /home/jetson/nourrobot_ws/devel/lib/libnour_base.so
+Symlinking /home/jetson/nourrobot_ws/devel/lib/nourrobot/nour_base_node
+Symlinking /home/jetson/nourrobot_ws/devel/lib/pkgconfig/nourrobot.pc
+Symlinking /home/jetson/nourrobot_ws/devel/share/nourrobot/cmake/nourrobotConfig-version.cmake
+Symlinking /home/jetson/nourrobot_ws/devel/share/nourrobot/cmake/nourrobotConfig.cmake

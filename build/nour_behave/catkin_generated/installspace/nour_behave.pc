@@ -1,0 +1,8 @@
+prefix=/home/jetson/nourrobot_ws/install
+
+Name: nour_behave
+Description: Description of nour_behave
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

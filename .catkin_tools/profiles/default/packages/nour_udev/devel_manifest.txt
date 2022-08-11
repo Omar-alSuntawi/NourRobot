@@ -1,0 +1,2 @@
+nour_core/nour_udev
+/home/jetson/nourrobot_ws/devel/.private/nour_udev/cmake.lock /home/jetson/nourrobot_ws/devel/./cmake.lock

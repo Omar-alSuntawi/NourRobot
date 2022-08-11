@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target nour_msgs_generate_messages_cpp[0m
+[  0%] Built target nour_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nour_base[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nour_base.dir/src/nour_base.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/jetson/nourrobot_ws/devel/.private/nourrobot/lib/libnour_base.so[0m
+[ 50%] Built target nour_base
+[35m[1mScanning dependencies of target nour_base_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/nour_base_node.dir/src/nour_base_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/jetson/nourrobot_ws/devel/.private/nourrobot/lib/nourrobot/nour_base_node[0m
+[100%] Built target nour_base_node

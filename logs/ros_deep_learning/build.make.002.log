@@ -1,0 +1,8 @@
+[ 17%] Built target video_source
+[ 34%] Built target segnet
+[ 52%] Built target detectnet
+[ 69%] Built target imagenet
+[ 86%] Built target video_output
+[ 91%] [32mBuilding CXX object CMakeFiles/ros_deep_learning_nodelets.dir/src/nodelet_imagenet.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library /home/jetson/nourrobot_ws/devel/.private/ros_deep_learning/lib/libros_deep_learning_nodelets.so[0m
+[100%] Built target ros_deep_learning_nodelets

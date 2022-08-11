@@ -1,0 +1,13 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _nour_behave_generate_messages_check_deps_ServiceExample
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _nour_behave_generate_messages_check_deps_ServiceDetect
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 25%] Built target nour_behave_generate_messages_py
+[ 41%] Built target nour_behave_generate_messages_lisp
+[ 58%] Built target nour_behave_generate_messages_cpp
+[ 83%] Built target nour_behave_generate_messages_eus
+[100%] Built target nour_behave_generate_messages_nodejs
+[100%] Built target nour_behave_generate_messages

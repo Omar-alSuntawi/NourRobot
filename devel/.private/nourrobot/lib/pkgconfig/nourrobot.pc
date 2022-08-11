@@ -1,0 +1,8 @@
+prefix=/home/jetson/nourrobot_ws/devel/.private/nourrobot
+
+Name: nourrobot
+Description: Description of nourrobot
+Version: 1.4.1
+Cflags: -I/home/jetson/nourrobot_ws/src/nour_core/nourrobot/include
+Libs: -L${prefix}/lib -lnourrobot
+Requires: roscpp rospy tf2 tf2_ros nav_msgs nour_msgs geometry_msgs sensor_msgs std_msgs
